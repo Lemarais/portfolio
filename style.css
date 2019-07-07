@@ -1,9 +1,9 @@
-body, html, h1{
+body, html, h1, #wrapper{
 	margin: 0px;
 	padding: 0px;
 }
 
-body {
+#wrapper {
 	display: grid;
 	grid-template-rows: 100px, auto, 50px;
 }
