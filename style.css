@@ -22,10 +22,13 @@ h1{
 }
 
 #content h3{
-	margin-top: 9em;
 	display: inline;
 	font-size: 2em;
 	color: #d0d0d0;
+}
+
+#content > div {
+	margin-top: 7em;
 }
 
 #wrapper {
