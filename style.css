@@ -29,7 +29,10 @@ h1{
 }
 
 #basic_lecture_box > div {
-	font-align: center;
+	margin-top: 0.5em;
+	text-align: center;
+	color: white;
+	
 }
 
 #content {
