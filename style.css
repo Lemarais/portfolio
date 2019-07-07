@@ -28,7 +28,7 @@ h1{
 }
 
 #content > div {
-	margin-top: 7em;
+	margin: 4em auto;
 }
 
 #wrapper {
@@ -75,8 +75,8 @@ h1{
 }
 
 #bottom {
-	margin-top: 8em;
 	background-color: #d0d0d0;
+	text-align: right;
 }
 
 
