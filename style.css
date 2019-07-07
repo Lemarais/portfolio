@@ -3,18 +3,23 @@ body, html, h1, ul, li, #wrapper, #basic_lecture_box{
 	padding: 0px;
 }
 
-#wrapper {
-	display: grid;
-	grid-template-rows: 20em auto 5em;
-}
-
-
-
 h1{
 	display: inline;
 	float: bottom;
 	font-size: 6em;
 	color: white;
+}
+
+.websitebox {
+	width: 15em;
+	height: 10em;
+	border: 1px solid black;
+	margin: 2em auto;	
+}
+
+#wrapper {
+	display: grid;
+	grid-template-rows: 20em auto 5em;
 }
 
 #titlebox {
