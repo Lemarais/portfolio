@@ -1,9 +1,4 @@
-body{
-	margin: 0px;
-	padding: 0px;
-}
-
-html{
+body, html, h1{
 	margin: 0px;
 	padding: 0px;
 }
@@ -11,7 +6,7 @@ html{
 h1{
 	display: inline;
 	float: bottom;
-	font-size: 10em;
+	font-size: 6em;
 	color: white;
 }
 
