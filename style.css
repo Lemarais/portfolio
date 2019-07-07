@@ -10,7 +10,7 @@ h1{
 	color: white;
 }
 
-.websitebox {
+#content > div {
 	width: 15em;
 	height: 10em;
 	border: 1px solid black;
@@ -45,8 +45,8 @@ h1{
 }
 
 #funshop{
-	background-image: url(pagesource/funshop.gif)
-	
+	background-size contain
+	background-image: url(pagesource/funshop.gif)	
 }
 
 #bottom {
