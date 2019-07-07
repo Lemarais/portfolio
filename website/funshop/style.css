@@ -1,0 +1,53 @@
+body, html, h1, h3, ul, li, div, #wrapper, #basic_lecture_box{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	display: inline;
+	float: bottom;
+	font-size: 6em;
+	color: white;
+	text-align: center;
+}
+
+#wrapper {
+	display: grid;
+	grid-template-rows: 20em auto 5em;
+}
+
+#titlebox {
+	background-color: #d0d0d0;
+	display: grid;
+	grid-template-rows: auto 6em 2.5em;
+}
+
+#basic_lecture_box {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#basic_lecture_box > div {
+	margin-top: 0.5em;
+	text-align: center;
+	font-size: 1.5em;
+}
+#basic_lecture_box a {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+#content {
+	display: grid;
+	grid-template-columns: 10em auto;
+}
+
+#bottom {
+	background-color: #d0d0d0;
+	text-align: right;
+	color: white;
+}
+
+
+
