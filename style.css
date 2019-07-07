@@ -1,4 +1,4 @@
-body, html, h1, ul, li, #wrapper, #basic_lecture_box{
+body, html, h1, h3, ul, li, div, #wrapper, #basic_lecture_box{
 	margin: 0px;
 	padding: 0px;
 }
@@ -11,14 +11,18 @@ h1{
 	text-align: center;
 }
 
-#content > div {
+.websitebox {
 	width: 40em;
 	height: 10em;
 	border: 1px solid #d0d0d0;
-	margin: 5em auto;
+	margin: 1em auto;
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
+}
+
+#content h3{
+	margin-top: 7em;
 }
 
 #wrapper {
