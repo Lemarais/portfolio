@@ -7,7 +7,7 @@ h1{
 	display: inline;
 	float: bottom;
 	font-size: 6em;
-	color: #3c4145;
+	color: #797687;
 	text-align: center;
 }
 
@@ -24,7 +24,7 @@ h1{
 #content h3{
 	display: inline;
 	font-size: 2em;
-	color: #3c4145;
+	color: #797687;
 }
 
 #content > div {
@@ -46,7 +46,7 @@ h1{
 }
 
 #basic_lecture_box {
-	background-color: #3c4145;
+	background-color: #797687;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
@@ -83,7 +83,7 @@ h1{
 #bottom {
 	background-color: #9be2d4;
 	text-align: right;
-	color: #3c4145;
+	color: #797687;
 }
 
 
