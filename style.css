@@ -7,14 +7,14 @@ h1{
 	display: inline;
 	float: bottom;
 	font-size: 6em;
-	color: white;
+	color: 797687;
 	text-align: center;
 }
 
 .websitebox {
 	width: 40em;
 	height: 10em;
-	border: 1px solid #d0d0d0;
+	border: 1px solid #9b2ed4;
 	margin: 0.5em auto;
 	background-size: contain;
 	background-position: center center;
@@ -24,10 +24,11 @@ h1{
 #content h3{
 	display: inline;
 	font-size: 2em;
-	color: #d0d0d0;
+	color: #9b2ed4;
 }
 
 #content > div {
+	width: 40em;
 	margin: 4em auto;
 }
 
@@ -37,7 +38,7 @@ h1{
 }
 
 #titlebox {
-	background-color: #d0d0d0;
+	background-color: #9b2ed4;
 	display: grid;
 	grid-template-rows: auto 6em 2.5em;
 }
@@ -54,13 +55,14 @@ h1{
 }
 #basic_lecture_box a {
 	text-align: center;
-	color: white;
+	color: 797687;
 	text-decoration: none;
 }
 
 #content {
-	width: 40em;
-	margin: 0px auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(pagesource/content_background.jpg);
 }
 
 #funshop {
@@ -76,9 +78,9 @@ h1{
 }
 
 #bottom {
-	background-color: #d0d0d0;
+	background-color: #9b2ed4;
 	text-align: right;
-	color: white;
+	color: 797687;
 }
 
 
