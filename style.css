@@ -1,10 +1,10 @@
 #titlebox {
-	background-color=blue;
-	margin=0px;
-	padding=0px;
-	height=20em;
+	background-color: blue;
+	margin: 0px;
+	padding: 0px;
+	height: 20em;
 }
 
 h1{
-	display=inline;
+	display: inline;
 }
