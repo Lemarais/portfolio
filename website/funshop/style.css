@@ -12,6 +12,7 @@ h1{
 }
 
 #wrapper {
+	height: 80em;
 	display: grid;
 	grid-template-rows: 20em auto 5em;
 }
