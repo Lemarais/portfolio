@@ -9,7 +9,6 @@ h1{
 	font-size: 6em;
 	color: #797687;
 	text-align: center;
-	padding-bottom: 0.5em;
 }
 
 .websitebox {
@@ -41,7 +40,7 @@ h1{
 
 #titlebox {
 	display: grid;
-	grid-template-rows: auto 6em 2em;
+	grid-template-rows: auto 7em 2em;
 	background-size: cover;
 	background-image: url(pagesource/title_background.png);
 }
@@ -53,7 +52,6 @@ h1{
 }
 
 #basic_lecture_box > div {
-	margin-top: 0.5em;
 	text-align: center;
 	font-size: 1.5em;
 }
