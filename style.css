@@ -11,15 +11,15 @@ h1{
 }
 
 #content > div {
-	width: 15em;
+	width: 40em;
 	height: 10em;
-	border: 1px solid black;
+	border: 1px solid #d0d0d0;
 	margin: 5em auto;	
 }
 
 #wrapper {
 	display: grid;
-	grid-template-rows: 40em auto 5em;
+	grid-template-rows: 20em auto 5em;
 }
 
 #titlebox {
@@ -37,7 +37,7 @@ h1{
 	margin-top: 0.5em;
 	text-align: center;
 	color: white;
-	
+	text-decoration: none;
 }
 
 #content {
