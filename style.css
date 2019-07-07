@@ -8,6 +8,8 @@ body, html, h1, #wrapper{
 	grid-template-rows: 20em auto 5em;
 }
 
+
+
 h1{
 	display: inline;
 	float: bottom;
@@ -17,10 +19,18 @@ h1{
 
 #titlebox {
 	background-color: #d0d0d0;
+	grid-template-rows: auto 6em 2em;
+	background-color: white;
 }
 
+#titlebox > li {
+	display: inline;
+}
+
+
 #content {
-	background-color: white;
+	display: grid;
+	
 }
 
 #bottom {
