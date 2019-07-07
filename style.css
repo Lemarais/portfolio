@@ -5,7 +5,7 @@ body, html, h1{
 
 body {
 	display: grid;
-	grid-template-rows: 20em, 1fr, 5em;
+	grid-template-rows: 100px, auto, 50px;
 }
 
 h1{
@@ -20,7 +20,7 @@ h1{
 }
 
 #content {
-	background-color: brown;
+	background-color: white;
 }
 
 #bottom {
