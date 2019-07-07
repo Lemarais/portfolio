@@ -10,6 +10,9 @@ html{
 
 h1{
 	display: inline;
+	float: bottom;
+	font-size: 10em;
+	color: white;
 }
 
 #titlebox {
