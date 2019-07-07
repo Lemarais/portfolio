@@ -8,13 +8,17 @@ h1{
 	float: bottom;
 	font-size: 6em;
 	color: white;
+	text-align: center;
 }
 
 #content > div {
 	width: 40em;
 	height: 10em;
 	border: 1px solid #d0d0d0;
-	margin: 5em auto;	
+	margin: 5em auto;
+	background-size: 40em 10em;
+	background-image: url(pagesource/funshop.gif);
+	background-repeat: no-repeat;
 }
 
 #wrapper {
@@ -48,10 +52,15 @@ h1{
 }
 
 #funshop {
-	padding: auto;
-	background-size: contain;
 	background-image: url(pagesource/funshop.gif);
-	background-repeat: no-repeat;	
+}
+
+#instagram {
+	background-image: url(pagesource/instagram.jpg);
+}
+
+#google {
+	background-image: url(pagesource/google.jpg);
 }
 
 #bottom {
