@@ -7,8 +7,9 @@ h1{
 	display: inline;
 	float: bottom;
 	font-size: 6em;
-	color: #9996a7;
+	color: #797687;
 	text-align: center;
+	margin-bottom: 0.5em;
 }
 
 .websitebox {
@@ -57,6 +58,7 @@ h1{
 	font-size: 1.5em;
 }
 #basic_lecture_box a {
+	margin: auto;
 	text-align: center;
 	color: #9be2d4;
 	text-decoration: none;
