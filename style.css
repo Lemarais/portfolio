@@ -14,12 +14,12 @@ h1{
 	width: 15em;
 	height: 10em;
 	border: 1px solid black;
-	margin: 2em auto;	
+	margin: 5em auto;	
 }
 
 #wrapper {
 	display: grid;
-	grid-template-rows: 20em auto 5em;
+	grid-template-rows: 40em auto 5em;
 }
 
 #titlebox {
@@ -45,8 +45,8 @@ h1{
 }
 
 #funshop{
-	background-size contain
-	background-image: url(pagesource/funshop.gif)	
+	background-size: contain;
+	background-image: url(pagesource/funshop.gif);	
 }
 
 #bottom {
