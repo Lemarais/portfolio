@@ -39,7 +39,7 @@ h1{
 #titlebox {
 	background-color: #d0d0d0;
 	display: grid;
-	grid-template-rows: auto 6em 2em;
+	grid-template-rows: auto 6em 4em;
 }
 
 #basic_lecture_box {
@@ -50,6 +50,7 @@ h1{
 #basic_lecture_box > div {
 	margin-top: 0.5em;
 	text-align: center;
+	font-size: 3em;
 }
 #basic_lecture_box a {
 	text-align: center;
@@ -77,6 +78,7 @@ h1{
 #bottom {
 	background-color: #d0d0d0;
 	text-align: right;
+	color: white;
 }
 
 
