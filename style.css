@@ -1,4 +1,4 @@
-body, html, h1, #wrapper{
+body, html, h1, ul, li, #wrapper{
 	margin: 0px;
 	padding: 0px;
 }
@@ -23,9 +23,9 @@ h1{
 	grid-template-rows: auto 6em 2em;
 }
 
-#titlebox > li {
-	display: inline;
-	background-color: yellow;
+#basic_lecture_box {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 
