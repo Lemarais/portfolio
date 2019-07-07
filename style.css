@@ -39,9 +39,10 @@ h1{
 }
 
 #titlebox {
-	background-color: #9be2d4;
 	display: grid;
 	grid-template-rows: auto 6em 2.5em;
+	background-size: cover;
+	background-image: url(pagesource/title_background.png);
 }
 
 #basic_lecture_box {
