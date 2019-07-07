@@ -24,12 +24,13 @@ h1{
 #content h3{
 	display: inline;
 	font-size: 2em;
-	color: #9be2d4;
+	color: #797687;
 }
 
 #content > div {
 	width: 40em;
 	margin: 4em auto;
+	background-color: white;
 }
 
 #wrapper {
@@ -62,7 +63,7 @@ h1{
 #content {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url(pagesource/content_background.jpg);
+	//background-image: url(pagesource/content_background.jpg);
 }
 
 #funshop {
