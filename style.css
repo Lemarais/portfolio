@@ -1,4 +1,4 @@
-body, html, h1, ul, li, #wrapper{
+body, html, h1, ul, li, #wrapper, #basic_lecture_box{
 	margin: 0px;
 	padding: 0px;
 }
@@ -28,6 +28,9 @@ h1{
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
+#basic_lecture_box > div {
+	font-align: center;
+}
 
 #content {
 	
