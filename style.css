@@ -1,9 +1,11 @@
 body, html, #wrapper, div{
-	margin: auto;
+	margin: 0px;
 	padding: 0px;
+	border: 1px solid black;
 }
 
 #wrapper {
+	margin: auto;
 	display: grid;
 	grid-template-rows:5em 4em 3em 3em 1.5em 1.5em 1.5em;
 	grid-template-columns:7em 3em 2em 1em 3em 10em 6em;
