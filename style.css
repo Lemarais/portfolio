@@ -16,7 +16,7 @@ body, html, #wrapper, div{
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	background-color: yellow;
+	background-color: mint;
 }
 
 
@@ -33,7 +33,7 @@ body, html, #wrapper, div{
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 5;
-	background-color: black;
+	background-color: mint;
 	z-index: 1;
 }
 
@@ -42,7 +42,7 @@ body, html, #wrapper, div{
 	grid-column-end: 7;
 	grid-row-start: 2;
 	grid-row-end: 4;
-	background-color: brown;
+	background-color: white;
 }
 
 #box5 {
@@ -50,7 +50,7 @@ body, html, #wrapper, div{
 	grid-column-end: 8;
 	grid-row-start: 3;
 	grid-row-end: 5;
-	background-color: yellow;
+	background-color: mint;
 }
 
 #box6 {
@@ -58,7 +58,7 @@ body, html, #wrapper, div{
 	grid-column-end: 5;
 	grid-row-start: 4;
 	grid-row-end: 7;
-	background-color: yellow;
+	background-color: mint;
 }
 
 #box7 {
@@ -66,14 +66,14 @@ body, html, #wrapper, div{
 	grid-column-end: 7;
 	grid-row-start: 4;
 	grid-row-end: 6;
-	background-color: yellow;
+	background-color: mint;
 }
 #box8 {
 	grid-column-start: 6;
 	grid-column-end: 8;
 	grid-row-start: 6;
 	grid-row-end: 8;
-	background-color: brown;
+	background-color: white;
 }
 
 
