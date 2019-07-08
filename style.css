@@ -7,8 +7,8 @@ body, html, #wrapper, div{
 #wrapper {
 	margin: auto;
 	display: grid;
-	grid-template-rows:5em 4em 1em 3em 1.5em 1.5em 1.5em;
-	grid-template-columns:5em 3em 2em 1em 3em 10em 4em;
+	grid-template-rows:5em 4em 1em 3em 1.5em 1.5em 3.5em;
+	grid-template-columns:5em 3em 2em 1em 5em 8em 4em;
 }
 
 #box1 {
@@ -26,6 +26,7 @@ body, html, #wrapper, div{
 	grid-row-start: 1;
 	grid-row-end: 2;
 	background-color: white;
+	border: none;
 }
 
 #box3 {
@@ -51,6 +52,7 @@ body, html, #wrapper, div{
 	grid-row-start: 3;
 	grid-row-end: 5;
 	background-color: mint;
+	border: none;
 }
 
 #box6 {
@@ -74,15 +76,16 @@ body, html, #wrapper, div{
 	grid-row-start: 6;
 	grid-row-end: 8;
 	background-color: white;
+	border: none;
 }
 
 
-#box {
-	grid-column-start: ;
-	grid-column-end: ;
-	grid-row-start: ;
-	grid-row-end: ;
-	background-color: ;
+#box9 {
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 6;
+	grid-row-end: 8;
+	background-color: mint;
 }
 
 
