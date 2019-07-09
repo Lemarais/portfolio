@@ -1,10 +1,20 @@
 body, html, #wrapper, div{
 	margin: 0px;
 	padding: 0px;
-	border: 1px solid black;
+}
+
+h1, input, p, #web, #basic, menubox div{
+	display: inline;
+}
+
+h1 {
+	margin: 2em auto;
+	font-size: 3em;
+	color: 797687;
 }
 
 #wrapper {
+	width: 52em;
 	margin: auto;
 	display: grid;
 	grid-template-rows:8em 8em 4em 6em 3em 3em 3em;
@@ -16,7 +26,7 @@ body, html, #wrapper, div{
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	background-color: mint;
+	background-color: #9be2d4;
 }
 
 
@@ -25,8 +35,6 @@ body, html, #wrapper, div{
 	grid-column-end: 8;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	background-color: white;
-	border: none;
 }
 
 #webfirstbox {
@@ -34,7 +42,7 @@ body, html, #wrapper, div{
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 5;
-	background-color: mint;
+	background-color: cbf1e4;
 	z-index: 1;
 }
 
@@ -43,8 +51,6 @@ body, html, #wrapper, div{
 	grid-column-end: 7;
 	grid-row-start: 2;
 	grid-row-end: 4;
-	background-color: white;
-	border: none;
 }
 
 #cloverbox {
@@ -52,7 +58,8 @@ body, html, #wrapper, div{
 	grid-column-end: 8;
 	grid-row-start: 3;
 	grid-row-end: 5;
-	background-color: mint;
+	background-size: cover;
+	background-image: url(pagesource/title_background.png);
 }
 
 #basicfirstbox {
@@ -60,7 +67,7 @@ body, html, #wrapper, div{
 	grid-column-end: 5;
 	grid-row-start: 4;
 	grid-row-end: 7;
-	background-color: mint;
+	background-color: b8f9e4;
 }
 
 #textbox {
@@ -68,29 +75,22 @@ body, html, #wrapper, div{
 	grid-column-end: 7;
 	grid-row-start: 4;
 	grid-row-end: 6;
-	background-color: mint;
+	border: 1px solid #c2c2c2;
 }
-#basicsecondbox {
+#contactbox {
 	grid-column-start: 6;
 	grid-column-end: 8;
 	grid-row-start: 6;
 	grid-row-end: 8;
-	background-color: white;
-	border: none;
 }
 
 
-#box9 {
+#basicsecondbox {
 	grid-column-start: 5;
 	grid-column-end: 6;
 	grid-row-start: 6;
 	grid-row-end: 8;
-	background-color: mint;
-}
-
-
-h1, input, p, #web, #basic {
-	display: inline;
+	background-color: #9be2d4;
 }
 
 
