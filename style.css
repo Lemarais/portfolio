@@ -8,7 +8,7 @@ body, html, #wrapper, div{
 	margin: auto;
 	display: grid;
 	grid-template-rows:8em 8em 4em 6em 3em 3em 3em;
-	grid-template-columns:12em 6em 2em 4em 6em 10em 10em;
+	grid-template-columns:12em 6em 2em 4em 6em 12em 10em;
 }
 
 #box1 {
