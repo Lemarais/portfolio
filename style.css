@@ -89,12 +89,8 @@ body, html, #wrapper, div{
 }
 
 
-#box {
-	grid-column-start: ;
-	grid-column-end: ;
-	grid-row-start: ;
-	grid-row-end: ;
-	background-color: ;
+h1, input, p, #web, #basic {
+	display: inline;
 }
 
 
