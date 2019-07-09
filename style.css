@@ -3,19 +3,19 @@ body, html, #wrapper, div{
 	padding: 0px;
 }
 
-h1, input, p, #web, #basic, menubox div{
+h1, input, p, #web, #basic, #menubox div{
 	display: inline;
 }
 
 h1 {
 	margin: 2em auto;
 	font-size: 3em;
-	color: 797687;
+	color: #797687;
 }
 
 #wrapper {
 	width: 52em;
-	margin: auto;
+	margin: 5em auto;
 	display: grid;
 	grid-template-rows:8em 8em 4em 6em 3em 3em 3em;
 	grid-template-columns:12em 6em 2em 4em 6em 12em 10em;
@@ -26,7 +26,7 @@ h1 {
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	background-color: #9be2d4;
+	background-color: #c2c2c2;
 }
 
 
@@ -42,7 +42,7 @@ h1 {
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 5;
-	background-color: cbf1e4;
+	background-color: #c2c2c2;
 	z-index: 1;
 }
 
@@ -67,7 +67,7 @@ h1 {
 	grid-column-end: 5;
 	grid-row-start: 4;
 	grid-row-end: 7;
-	background-color: b8f9e4;
+	background-color: #b8f9e4;
 }
 
 #textbox {
