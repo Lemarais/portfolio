@@ -11,7 +11,7 @@ body, html, #wrapper, div{
 	grid-template-columns:12em 6em 2em 4em 6em 12em 10em;
 }
 
-#box1 {
+#websecondbox {
 	grid-column-start: 2;
 	grid-column-end: 4;
 	grid-row-start: 1;
@@ -20,7 +20,7 @@ body, html, #wrapper, div{
 }
 
 
-#box2 {
+#menubox {
 	grid-column-start: 4;
 	grid-column-end: 8;
 	grid-row-start: 1;
@@ -29,7 +29,7 @@ body, html, #wrapper, div{
 	border: none;
 }
 
-#box3 {
+#webfirstbox {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 2;
@@ -38,7 +38,7 @@ body, html, #wrapper, div{
 	z-index: 1;
 }
 
-#box4 {
+#titlebox {
 	grid-column-start: 3;
 	grid-column-end: 7;
 	grid-row-start: 2;
@@ -47,7 +47,7 @@ body, html, #wrapper, div{
 	border: none;
 }
 
-#box5 {
+#cloverbox {
 	grid-column-start: 7;
 	grid-column-end: 8;
 	grid-row-start: 3;
@@ -55,7 +55,7 @@ body, html, #wrapper, div{
 	background-color: mint;
 }
 
-#box6 {
+#basicfirstbox {
 	grid-column-start: 2;
 	grid-column-end: 5;
 	grid-row-start: 4;
@@ -63,14 +63,14 @@ body, html, #wrapper, div{
 	background-color: mint;
 }
 
-#box7 {
+#textbox {
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 4;
 	grid-row-end: 6;
 	background-color: mint;
 }
-#box8 {
+#basicsecondbox {
 	grid-column-start: 6;
 	grid-column-end: 8;
 	grid-row-start: 6;
