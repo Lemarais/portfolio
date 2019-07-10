@@ -8,6 +8,7 @@ h1, input, p, #web, #basic, #menubox div{
 }
 
 h1 {
+	margin: auto;
 	height: 4em;
 	padding-top: 1.5em;
 	text-align: center;
@@ -60,6 +61,7 @@ h1 {
 	grid-column-end: 7;
 	grid-row-start: 2;
 	grid-row-end: 4;
+	border: 1px solid black;
 }
 
 #cloverbox {
