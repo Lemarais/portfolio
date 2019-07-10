@@ -13,6 +13,12 @@ h1 {
 	text-align: center;
 	font-size: 2.5em;
 	color: #797687;
+	border: 1px solid black;
+}
+
+#titlebox input {
+	margin-top 1em;
+	width: 20em;
 }
 
 #wrapper {
@@ -61,7 +67,7 @@ h1 {
 	grid-column-end: 8;
 	grid-row-start: 3;
 	grid-row-end: 5;
-	background-color: #cnf1e4;
+	background-color: #cbf1e4;
 }
 
 #basicfirstbox {
