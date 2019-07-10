@@ -44,7 +44,8 @@ h1 {
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 5;
-	background-color: #cbf1e4;
+	background-size: cover;
+	background-image: url(pagesource/title_background.png);
 	z-index: 1;
 }
 
@@ -60,8 +61,7 @@ h1 {
 	grid-column-end: 8;
 	grid-row-start: 3;
 	grid-row-end: 5;
-	background-size: cover;
-	background-image: url(pagesource/title_background.png);
+	background-color: #cnf1e4;
 }
 
 #basicfirstbox {
