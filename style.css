@@ -7,18 +7,17 @@ h1, input, p, #web, #basic, #menubox div{
 	display: inline;
 }
 
-h1 {
-	margin: 0px auto;
+#titlebox h1 {
 	width: 24em;
 	height: 4em;
 	text-align: center;
 	font-size: 2.5em;
 	color: #797687;
-	border: 1px solid black;
 }
 
 #titlebox input {
-	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
 	width: 20em;
 }
 
