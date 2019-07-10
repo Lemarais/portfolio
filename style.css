@@ -9,21 +9,18 @@ h1, input, p, #web, #basic, #menubox div{
 
 #titlebox div {
 	display: block;
-	height: 5em;
-	border: 1px solid black;
-	
+	height: 5em;	
 }
 
 #titlebox h1 {
 	margin-left: 1em;
 	font-size: 2.5em;
 	color: #797687;
-	border: 1px solid black;
 }
 
 #titlebox input {
 	margin-top: 1em;
-	margin-left: 2em;
+	margin-left: 6em;
 	margin-bottom: 1em;
 	height: 2em;
 	width: 20em;
