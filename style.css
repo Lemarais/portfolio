@@ -10,6 +10,7 @@ h1, input, p, #web, #basic, #menubox div{
 #titlebox div {
 	display: block;
 	height: 5em;
+	border: 1px solid black;
 	
 }
 
