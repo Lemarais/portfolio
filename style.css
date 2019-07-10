@@ -8,9 +8,9 @@ h1, input, p, #web, #basic, #menubox div{
 }
 
 h1 {
-	margin: auto;
+	margin: 0px auto;
+	width: 24em;
 	height: 4em;
-	padding-top: 1.5em;
 	text-align: center;
 	font-size: 2.5em;
 	color: #797687;
@@ -18,7 +18,7 @@ h1 {
 }
 
 #titlebox input {
-	margin-top 1em;
+	margin-top: 1em;
 	width: 20em;
 }
 
@@ -61,6 +61,8 @@ h1 {
 	grid-column-end: 7;
 	grid-row-start: 2;
 	grid-row-end: 4;
+	display: grid;
+	grid-template-rows: 5em 4em 3em;
 	border: 1px solid black;
 }
 
