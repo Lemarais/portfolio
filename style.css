@@ -3,7 +3,7 @@ body, html, div, h1, input, button, p {
 	padding: 0px;
 }
 
-body + div {
+#titlepicture {
 	width: 100%;
 	height: 45em;
 	background-size: cover;
