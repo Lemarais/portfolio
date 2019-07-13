@@ -65,7 +65,7 @@ button {
 #tagmenubox {
 	width: 21em;
 	display: grid;
-	gird-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	margin: auto;
 	border: 1px solid black;
 }
