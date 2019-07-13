@@ -62,7 +62,7 @@ button {
 	background-color: #01bfa5;
 }
 
-#thickmenubox {
+#tagmenubox {
 	width: 21em;
 	display: grid;
 	gird-template-columns: 1fr 1fr 1fr;
