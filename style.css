@@ -58,15 +58,14 @@ button {
 }
 
 .thickline > div {
-	display: grid;
-	gird-template-columns: 7em 7em 7em;
-	margin: auto;
 	width: 21em;
+	display: grid;
+	gird-template-columns: 1fr 1fr 1fr;
+	margin: auto;
 }
 
 .tagmenu {
 	color: white;
-	width: 7em;
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -79,7 +78,7 @@ h2 {
 }
 
 h2 + p {
-	margin: 2em auto 0em;
+	margin: 3em auto 0em;
 	width: 30em;
 	font-size: 1em;
 	letter-spacing: 0.2em;
