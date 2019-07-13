@@ -67,7 +67,6 @@ button {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	margin: auto;
-	border: 1px solid black;
 }
 
 .tagmenu {
