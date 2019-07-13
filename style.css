@@ -61,13 +61,14 @@ button {
 .thickline > div {
 	margin: auto;
 	width: 21em;
+	border: 1px solid black;
 }
 
 .tagmenu {
 	color: white;
 	width: 7em;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1em;
 	border: 1px solid black;
 }
 
