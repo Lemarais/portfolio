@@ -12,6 +12,11 @@ body, html, div, h1, input, button, p {
 	background-image: url(pagesource/background.jpg);
 }
 
+#topmenu div{
+	display: inline;
+	color: white;
+}
+
 #titlebox {
 	margin: auto;
 	width: 32em;
@@ -62,11 +67,13 @@ button {
 	display: grid;
 	gird-template-columns: 1fr 1fr 1fr;
 	margin: auto;
+	border: 1px solid black;
 }
 
 .tagmenu {
 	color: white;
 	font-size: 1.5em;
+	border: 1px solid black;
 }
 
 h2 {
