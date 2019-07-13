@@ -58,7 +58,7 @@ button {
 }
 
 
-thickline > div {
+.thickline > div {
 	display: inline;
 	color: white;
 	width: 33%;
@@ -70,12 +70,14 @@ thickline > div {
 h2 {
 	text-align: center;
 	font-size: 3em;
-	margin: 3em auto;
+	margin: 3em auto 0em;
 	color: #01c1ac;
 }
 
 h2 + p {
-	margin: 3em auto;
-	width: 20em;
-	font-size: 0.7em;
+	margin: 1em auto 0em;
+	width: 30em;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	line-height: 1.5em;
 }
