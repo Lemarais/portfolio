@@ -58,12 +58,17 @@ button {
 	padding: 1em auto 1em;
 }
 
-
 .thickline > div {
+	margin: auto;
+	width: 21em;
+}
+
+.tagmenu {
 	color: white;
-	width: 33%;
+	width: 7em;
 	text-align: center;
 	font-size: 2em;
+	border: 1px solid black;
 }
 
 h2 {
