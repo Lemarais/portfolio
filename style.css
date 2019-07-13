@@ -19,13 +19,13 @@ body > div {
 h1 {
 	text-align: center;
 	color: white;
-	font-size: 8em;
+	font-size: 5em;
 }
 
 input {
-	margin-top: 1.2em;
+	margin-top: 0.5em;
 	height: 3em;
-	width: 26em;
+	width: 32em;
 	display: inline;
 	background-color: black;
 	border: 3px solid white;
@@ -33,8 +33,8 @@ input {
 }
 
 button {
-	height: 4em;
-	width: 4em;
+	height: 3em;
+	width: 3em;
 	border: 3px solid white;
 	background-color: black;
 	color: white;
@@ -43,7 +43,7 @@ button {
 p {
 	margin-top: 0.5em;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1em;
 	color: white;
 }
 
