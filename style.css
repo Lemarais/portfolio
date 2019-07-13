@@ -55,6 +55,7 @@ button {
 	width: 100%;
 	height: 4em;
 	background-color: #01c1ac;
+	padding: 1em auto 1em;
 }
 
 
@@ -63,7 +64,6 @@ button {
 	width: 33%;
 	text-align: center;
 	font-size: 2em;
-	margin-top: 1em;
 }
 
 h2 {
