@@ -5,13 +5,13 @@ body, html, div, h1, input, button, p {
 
 body {
 	background-size: cover;
-	background-image: url(pagesource/background.png);
+	background-image: url(pagesource/background.jpg);
 }
 
 body > div {
 	margin: auto;
 	margin-top: 15em;
-	width: 30em;
+	width: 31em;
 	height: 20em;
 }
 
@@ -35,8 +35,8 @@ input {
 button {
 	margin: 0px;
 	padding: 0px;
-	height: 3em;
-	width: 3em;
+	height: 3.5em;
+	width: 3.5em;
 	border: 3px solid white;
 	background-color: black;
 	color: white;
