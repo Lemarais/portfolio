@@ -59,9 +59,9 @@ button {
 
 
 #titlebox p {
-	margin-top: 0.5em;
+	margin-top: 1em;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 2em;
 	color: white;
 }
 
@@ -121,9 +121,14 @@ h2 ~ p {
 	line-height: 1.5em;
 }
 
-.contentbox {
-	width: 30em;
-	height: 8em;
-	margin: 2em auto;
+.content {
+	width: 15em;
+	height: 15em;
+	border: 1px solid black;
+}
+
+.before {
+	width: 15em;
+	height: 15em;
 	border: 1px solid black;
 }
