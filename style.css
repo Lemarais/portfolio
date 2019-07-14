@@ -113,7 +113,7 @@ h2 {
 	color: #01bfa5;
 }
 
-h2 + p {
+h2 ~ p {
 	margin: 3em auto 0em;
 	width: 30em;
 	font-size: 1em;
