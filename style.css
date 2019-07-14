@@ -32,8 +32,8 @@ button {
 
 
 #titlepicture {
-	display: grid;
-	grid-template-rows: 4em auto 2em;
+	//display: grid;
+	//grid-template-rows: 4em auto 2em;
 	width: 100%;
 	height: 45em;
 	background-size: cover;
@@ -47,14 +47,18 @@ button {
 }
 
 #titlebox {
-	padding-top: -1em;
-	margin: auto;
+	position: absolute;
+	top: 50%;
+	margin-top: -5em;
+	margin: 0 auto;
 	width: 32em;
 }
 
 #titlebox + div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
 	color: white;
-	text-align: right;
 	font-size: 1.5em;
 }
 
