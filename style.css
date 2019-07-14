@@ -121,6 +121,9 @@ h2 ~ p {
 	line-height: 1.5em;
 }
 
+h3 {
+	text-align: center;
+}
 #contentbox {
 	display: grid;
 	width: 30em;
@@ -128,6 +131,7 @@ h2 ~ p {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	margin: 2em auto 0;
+	background-color: #c2c2c2;
 }
 
 .content {
@@ -136,7 +140,25 @@ h2 ~ p {
 	border: 1px solid black;
 }
 
+.content p {
+	color: white;
+	width: 11em;
+}
+
+img {
+	width: 11em;
+	height: 7em;
+	margin: 0.5em auto 0;
+}
+
+#beforebox {
+	margin: 3em auto 3em;
+	width: 30em;
+	height: 15em;
+}
+
 .before {
+	display: inline;
 	width: 15em;
 	height: 15em;
 	border: 1px solid black;
