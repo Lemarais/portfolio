@@ -70,7 +70,6 @@ button {
 	top: 15em;
 	right: 0;
 	width: 5em;
-	border: 1px solid white;
 }
 
 .floatmenu {
@@ -81,6 +80,8 @@ button {
 	text-align: center;
 	color: white;
 	background-color: #01bfa5;
+	font-size: 1em;
+	line-height: 1em;
 }
 
 .thickline {
