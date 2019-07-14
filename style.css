@@ -67,6 +67,9 @@ button {
 }
 
 #floatmenubox {
+	position: absolute;
+	margin-left: 95%;
+	margin-top: 30%;
 	width: 5em;
 	margin-top: 40%;
 	float: right;
