@@ -121,8 +121,16 @@ h2 ~ p {
 	line-height: 1.5em;
 }
 
+#contentbox {
+	display: grid;
+	width: 30em;
+	height: 30em;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin: 2em auto 0;
+}
+
 .content {
-	display: inline;
 	width: 15em;
 	height: 15em;
 	border: 1px solid black;
