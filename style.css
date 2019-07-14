@@ -153,6 +153,8 @@ img {
 }
 
 #beforebox {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	margin: 3em auto 3em;
 	width: 30em;
 	height: 15em;
