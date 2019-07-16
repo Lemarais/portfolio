@@ -21,7 +21,7 @@ input {
 }
 
 button {
-	margin-right -2em;
+	margin-right: -2em;
 	margin: 0px;
 	padding: 0px;
 	height: 3.5em;
@@ -86,6 +86,16 @@ button {
 	font-size: 1em;
 	line-height: 1em;
 	border-bottom: 1px solid white;
+}
+
+.menulist {
+	position: left;
+	left: 6em;
+	width: 5em;
+}
+
+.menulist li {
+	color: white;
 }
 
 .thickline {
