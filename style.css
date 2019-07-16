@@ -68,20 +68,19 @@ button {
 #floatmenubox {
 	position: absolute;
 	top: 15em;
-	right: 0;
+	left: 0;
 	width: 5em;
 }
 
 .floatmenu {
 	margin: 1em;
-	height: 3em;
-	width: 3em;
-	border-radius: 50%;
-	text-align: center;
+	height: 1.5em;
+	width: 5em;
+	text-align: left;
 	color: white;
-	background-color: #01bfa5;
 	font-size: 1em;
 	line-height: 1em;
+	border-bottom: 1px solid white;
 }
 
 .thickline {
