@@ -89,7 +89,7 @@ button {
 }
 
 .menulist {
-	display: hidden;
+	display: block;
 	position: absolute;
 	top: 15em;
 	left: 5.3em;
@@ -97,7 +97,6 @@ button {
 }
 
 .menulist li {
-	display: hidden;
 	color: white;
 	margin-top: 1em;
 	height: 1.5em;

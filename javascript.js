@@ -1,10 +1,10 @@
 function webtoggle(){
-	var temp = document.getElementById("webmenubox").style.visibility;
+	var temp = document.getElementById("webmenubox").style.display;
 	alert(temp);
-	if(temp == "hidden"){
-		temp = inline;
+	if(temp == "none"){
+		temp = "block";
 	}
 	else {
-		temp = hidden;
+		temp = "none";
 	}
 }
