@@ -10,7 +10,7 @@ h1 {
 }
 
 input {
-	margin-left:: 1em;
+	margin-right:: -2em;
 	margin-top: 0.5em;
 	height: 3em;
 	width: 32em;
@@ -21,6 +21,7 @@ input {
 }
 
 button {
+	margin-right -2em;
 	margin: 0px;
 	padding: 0px;
 	height: 3.5em;
@@ -38,6 +39,10 @@ button {
 	height: 45em;
 	background-size: cover;
 	background-image: url(pagesource/background.jpg);
+}
+
+#topmenu {
+	float: right;
 }
 
 #topmenu div{
@@ -59,9 +64,9 @@ button {
 
 
 #titlebox p {
-	margin-top: 1em;
+	margin-top: 0.6em;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
 	color: white;
 }
 
