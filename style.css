@@ -96,7 +96,12 @@ button {
 	width: 5em;
 }
 
+.menulist ul {
+	display: inherit;
+}
+
 .menulist li {
+	display: inherit;
 	color: white;
 	margin-top: 1em;
 	height: 1.5em;
