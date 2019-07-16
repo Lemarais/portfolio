@@ -89,6 +89,7 @@ button {
 }
 
 .menulist {
+	display: hidden;
 	position: absolute;
 	top: 15em;
 	left: 6em;
@@ -97,6 +98,9 @@ button {
 
 .menulist li {
 	color: white;
+	margin-top: 1em;
+	height: 1.5em;
+	list-style-type: none;
 }
 
 .thickline {
