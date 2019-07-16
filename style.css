@@ -92,11 +92,12 @@ button {
 	display: hidden;
 	position: absolute;
 	top: 15em;
-	left: 6em;
+	left: 5.3em;
 	width: 5em;
 }
 
 .menulist li {
+	display: hidden;
 	color: white;
 	margin-top: 1em;
 	height: 1.5em;
