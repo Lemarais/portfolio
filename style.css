@@ -89,7 +89,8 @@ button {
 }
 
 .menulist {
-	position: left;
+	position: absolute;
+	top: 15em;
 	left: 6em;
 	width: 5em;
 }
