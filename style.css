@@ -89,15 +89,14 @@ button {
 }
 
 .menulist {
-	display: none;
 	position: absolute;
 	top: 15em;
-	left: 5.3em;
+	left: 6em;
 	width: 5em;
 }
 
-.menulist ul {
-	display: inherit;
+#webmenubox {
+	display: none;
 }
 
 a {
