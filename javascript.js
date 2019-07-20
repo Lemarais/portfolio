@@ -1,10 +1,12 @@
 function webtoggle(){
-	var temp = document.getElementById("webmenubox").style.display;
+	var temp = document.getElementById("webmenubox");
 	alert(temp);
-	if(temp == "none"){
-		temp = "block";
+	alert(temp.style);
+	alert(temp.style.display)
+	if(temp.style.display == "none"){
+		temp.style.display = "block";
 	}
 	else {
-		temp = "none";
+		temp.style.display = "none";
 	}
 }

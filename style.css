@@ -1,4 +1,4 @@
-body, html, div, h1, input, button, p {
+body, html, div, h1, input, button, p, ul, li {
 	margin: 0px;
 	padding: 0px;
 }
@@ -89,7 +89,7 @@ button {
 }
 
 .menulist {
-	display: block;
+	display: none;
 	position: absolute;
 	top: 15em;
 	left: 5.3em;
@@ -98,6 +98,11 @@ button {
 
 .menulist ul {
 	display: inherit;
+}
+
+a {
+	color: white;
+	text-decoration: none;
 }
 
 .menulist li {
