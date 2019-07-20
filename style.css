@@ -89,14 +89,11 @@ button {
 }
 
 .menulist {
+	display: none;
 	position: absolute;
 	top: 15em;
 	left: 7em;
 	width: 5em;
-}
-
-#webmenubox {
-	display: none;
 }
 
 a {
