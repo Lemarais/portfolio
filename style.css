@@ -1,4 +1,4 @@
-body, html, div, h1, input, button, p, ul, li {
+body, html, div, h1, input, button, p, ul, li, img{
 	margin: 0px;
 	padding: 0px;
 }
@@ -130,7 +130,7 @@ a {
 	display: inline;
 	width: 2em;
 	height: 2em;
-	margin: 0.5em;
+	margin-left: 1em;
 	border-radius: 50%;
 }
 
