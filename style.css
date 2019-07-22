@@ -120,6 +120,20 @@ a {
 	opacity: 0.5;
 }
 
+#sharemenubox {
+	width: 6em;
+	height: 3em;
+	display: none;
+}
+
+.sharecircle {
+	display: inline;
+	width: 2em;
+	height: 2em;
+	margin: 0.5em;
+	radius: 100%;
+}
+
 
 
 .thickline {
