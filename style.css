@@ -112,6 +112,8 @@ a {
 #helpbox {
 	display: none;
 	position: absolute;
+	left: 0;
+	top: 0;
 	height: 45em;
 	width: 100%;
 	background-color: black;
