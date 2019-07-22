@@ -121,7 +121,7 @@ a {
 }
 
 #sharemenubox {
-	width: 6em;
+	width: 6.5em;
 	height: 3em;
 	display: none;
 }
@@ -131,7 +131,7 @@ a {
 	width: 2em;
 	height: 2em;
 	margin: 0.5em;
-	radius: 100%;
+	border-radius: 50%;
 }
 
 
