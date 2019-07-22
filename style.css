@@ -121,6 +121,7 @@ a {
 }
 
 #sharemenubox {
+	margin: 0em 1em;
 	width: 6.5em;
 	height: 3em;
 	display: none;
@@ -129,8 +130,8 @@ a {
 .sharecircle {
 	display: inline;
 	width: 2em;
-	height: 2em;
-	margin-left: 1em;
+	height: 2.3em;
+	margin-right: 0.7em;
 	border-radius: 50%;
 }
 
