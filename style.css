@@ -72,7 +72,7 @@ button {
 
 #floatmenubox, #helpmenu{
 	position: absolute;
-	top: 15em;
+	top: 14em;
 	left: 0;
 	width: 5em;
 }
@@ -91,7 +91,7 @@ button {
 .menulist {
 	display: none;
 	position: absolute;
-	top: 15em;
+	top: 14em;
 	left: 7em;
 	width: 5em;
 }
