@@ -135,7 +135,7 @@ a {
 	border-radius: 50%;
 }
 
-p {
+#helpbox p {
 	border: 1px solid white;
 	padding: 0.3em;
 	font-size: 1em;
@@ -146,9 +146,9 @@ p {
 #titlehelp {
 	position: absolute;
 	top: 50%;
-	padding-top: -6em;
-	left: 60em;
-	padding-left: 10em;
+	margin-top: -6em;
+	left: 50%;
+	margin-left: 3em;
 	width: 15em;
 }
 
