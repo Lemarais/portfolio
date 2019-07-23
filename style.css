@@ -137,7 +137,7 @@ a {
 
 #helpbox p {
 	color: white;
-	border-left: 2px solid white;
+	border-left: 3px solid white;
 	padding-left: 1em;
 	font-size: 0.6em;
 	letter-spacing: 0.2em;
@@ -147,9 +147,9 @@ a {
 #titlehelp {
 	position: absolute;
 	top: 50%;
-	margin-top: -12em;
+	margin-top: -11em;
 	left: 50%;
-	margin-left: 15em;
+	margin-left: 17em;
 	width: 30em;
 }
 
