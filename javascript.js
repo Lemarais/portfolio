@@ -4,7 +4,9 @@ function menutoggle(menu_id){
 		selected.style.display = "none";
 	}
 	else {
-		document.querySelector(".menu").style.display="none";
+		document.querySelector("#webmenubox").style.display="none";
+		document.querySelector("#basicmenubox").style.display="none";
+		document.querySelector("#sharemenubox").style.display="none";
 		selected.style.display = "block";
 	}
 }
