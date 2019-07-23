@@ -139,18 +139,18 @@ a {
 	color: white;
 	border: 1px solid white;
 	padding: 0.3em;
-	font-size: 0.5em;
-	letter-spacing: 0.1em;
-	line-height: 0.8em;
+	font-size: 0.6em;
+	letter-spacing: 0.3em;
+	line-height: 1em;
 }
 
 #titlehelp {
 	position: absolute;
 	top: 50%;
-	margin-top: -15em;
+	margin-top: -12em;
 	left: 50%;
-	margin-left: 9em;
-	width: 20em;
+	margin-left: 12em;
+	width: 30em;
 }
 
 .thickline {
