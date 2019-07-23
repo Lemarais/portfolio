@@ -89,7 +89,6 @@ button {
 }
 
 .menulist {
-	display: none;
 	position: absolute;
 	top: 15em;
 	left: 7em;
@@ -135,6 +134,9 @@ a {
 	border-radius: 50%;
 }
 
+.menu {
+	display: none;
+}
 
 
 .thickline {
