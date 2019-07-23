@@ -1,10 +1,10 @@
 function menutoggle(menu_id){
-	document.querySelector(".menu").style.display="none";
-	var temp = document.getElementById(menu_id);
-	if(temp.style.display == "block"){
-		temp.style.display = "none";
+	var selected = document.querySelector(menu_id);
+	if(selected.style.display == "block"){
+		selected.style.display = "none";
 	}
 	else {
-		temp.style.display = "block";
+		document.querySelector(".menu").style.display="none";
+		selected.style.display = "block";
 	}
 }
