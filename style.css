@@ -88,7 +88,7 @@ button {
 	border-bottom: 1px solid white;
 }
 
-.menu {
+.menulist {
 	display: none;
 	position: absolute;
 	top: 15em;
@@ -97,9 +97,7 @@ button {
 }
 
 a {
-	margin-top: 1em;
 	color: white;
-	height: 1.5em;
 	text-decoration: none;
 }
 
