@@ -88,7 +88,8 @@ button {
 	border-bottom: 1px solid white;
 }
 
-.menulist {
+.menu {
+	display: none;
 	position: absolute;
 	top: 15em;
 	left: 7em;
@@ -120,10 +121,10 @@ a {
 }
 
 #sharemenubox {
+	position: static;
 	margin: 0em 1em;
 	width: 6.5em;
 	height: 3em;
-	display: none;
 }
 
 .sharecircle {
@@ -133,11 +134,6 @@ a {
 	margin-right: 0.4em;
 	border-radius: 50%;
 }
-
-.menu {
-	display: none;
-}
-
 
 .thickline {
 	width: 100%;
