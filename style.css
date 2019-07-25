@@ -79,7 +79,7 @@ button {
 
 #floatmenuhelpbox {
 	position: absolute;
-	top: 13.8em;
+	top: 13.7em;
 	left: 7em;
 }
 
@@ -95,7 +95,7 @@ button {
 }
 
 .floatmenuhelp {
-	margin-top: 1.6em;
+	margin-top: 1.7em;
 	text-align: left;
 	color: white;
 	font-size: 1em;
@@ -172,7 +172,7 @@ a {
 #is {
 	position: absolute;
 	top: 50%;
-	margin-top: -1.8em;
+	margin-top: -1.7em;
 	left: 50%;
 	margin-left: 2.2em;
 	color: white;
@@ -184,7 +184,7 @@ a {
 	top: 50%;
 	margin-top: -0.7em;
 	left: 50%;
-	margin-left: 23em;
+	margin-left: 25em;
 	width: 20em;
 }
 
