@@ -174,9 +174,9 @@ a {
 #is {
 	position: absolute;
 	top: 50%;
-	margin-top: 5em;
+	margin-top: -1em;
 	left: 50%;
-	margin-left: 3em;
+	margin-left: 2em;
 	color: white;
 	font-size: 3em;
 }
@@ -184,9 +184,9 @@ a {
 #searchhelp {
 	position: absolute;
 	top: 50%;
-	margin-top: -1.5em;
+	margin-top: -1em;
 	left: 50%;
-	margin-left: 27em;
+	margin-left: 26em;
 	width: 2pem;
 }
 
