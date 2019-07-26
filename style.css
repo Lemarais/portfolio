@@ -188,6 +188,29 @@ a {
 	width: 20em;
 }
 
+#downtriangle {
+	position: absolute;
+	left: 50%;
+	top: 40em;
+	margin-left: -1em;
+	height: 2em;
+	width: 2em;
+	border-radius: 50%;
+}
+
+#helpexplainbox {
+	display: none;
+	position: absolute;
+	top: 45em;
+	height: 50em;
+	width: 100%;
+	background-color: black;
+	
+}
+
+
+
+
 .thickline {
 	width: 100%;
 	height: 3em;
