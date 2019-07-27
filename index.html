@@ -16,7 +16,7 @@
 			<h1>COPY</h1>
 			<input type="text" value="www.blabla.com"></input>
 			<button>검색</button>
-			<p>Imitaion is the mother of creation</p>
+			<div id="quote">Imitaion is the mother of creation</div>
 		</div>
 		<div class="contact">contact goehd4551@snu.ac.kr</div>	
 	</div>
@@ -68,12 +68,8 @@
 		</div>
 		<div id="helpmenu" class="floatmenu" onclick="menutoggle('#helpbox')">help</div> 
 		<img src="pagesource/button.jpg" id="downtriangle" onclick="menutoggle('#helpexplainbox')"></img>
-		<div id="helpexplainbox">
-		 
-		</div>
 	</div>
-	<!--
-	<div>
+	<div id="helpexplainbox">
 		<div class="thickline">
 			<div id="tagmenubox">
 				<div class="tagmenu">introduce</div>
@@ -95,24 +91,19 @@
 		</div>
 		<div>
 			<h2>content</h2>
-			<div id="contentbox">
-				<div class="content">
-					<h3>search</h3>
-					<p>웹페이지를 입력하면 분석할 수 있다.</p>
-				</div>
-				<div class="content">
-					<h3>picture</h3>
-					<p>전체적인 구성을 그림으로 알려준다</p>
-				</div>
-				<div class="content">
-					<h3>basic</h3>
-					<p>라이브러리나 관련 지식을 제공한다</p>
-				</div>
-				<div class="content">
-					<h3>web</h3>
-					<img src="pagesource/funshop.gif"><a href="website/funshop/funshop.html"></a></img>
-					<p>자세하게 분석해 놓은 웹페이지 이다.</p>
-				</div>
+			<div id="contenttabbox">
+				<div class="contenttab" onclick="contenttoggle('#searchtab')">search</div>
+				<div class="contenttab" onclick="contenttoggle('#basictab')">basic</div>
+				<div class="contenttab" onclick="contenttoggle('#webtab')">web</div>
+				<div class="contenttab" onclick="contenttoggle('#picturetab')">picture</div>
+			</div>
+			<div class="contentbox" id="searchtab">
+				<p>
+				when i was young and rich when i was young and rich 
+				when i was young and rich when i was young and rich 
+				when i was young and rich when i was young and rich 
+				when i was young and rich when i was young and rich
+				</p>
 			</div>
 		</div>
 		<div>
@@ -125,8 +116,7 @@
 		</div>
 		<div class="thickline">
 			<div>contact goehd4551@snu.ac.kr</div>
-		</div>	
-	</div>
-	-->
+		</div>			 
+	</div>	
 </body>
 </html>

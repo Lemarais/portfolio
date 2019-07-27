@@ -7,6 +7,17 @@ function menutoggle(menu_id){
 		document.querySelector("#webmenubox").style.display="none";
 		document.querySelector("#basicmenubox").style.display="none";
 		document.querySelector("#sharemenubox").style.display="none";
+		document.querySelector("#helpexplainbox").style.display="none";
 		selected.style.display = "block";
 	}
 }
+
+function contenttoggle(content_id){
+	document.querySelector("#searchtab").style.display="none";
+	document.querySelector("#basictab").style.display="none";
+	document.querySelector("#webtab").style.display="none";
+	document.querySelector("#picturetab").style.display="none";
+	document.querySelector(content_id).style.display="block";
+}
+
+

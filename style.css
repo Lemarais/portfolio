@@ -31,6 +31,12 @@ button {
 	color: white;
 }
 
+p {
+	color: white;
+	font-size: 0.6em;
+	letter-spacing: 0.2em;
+	line-height: 1.3em;
+}
 
 #titlepicture {
 	display: grid;
@@ -63,7 +69,7 @@ button {
 }
 
 
-#titlebox p {
+#quote {
 	margin-top: 0.6em;
 	text-align: center;
 	font-size: 1.5em;
@@ -152,13 +158,8 @@ a {
 }
 
 #helpbox p {
-	color: white;
 	border-left: 3px solid white;
 	padding-left: 1em;
-	font-size: 0.6em;
-	letter-spacing: 0.2em;
-	line-height: 1.3em;
-	opacity: 1.0;
 }
 
 #titlehelp {
@@ -206,57 +207,44 @@ a {
 	height: 50em;
 	width: 100%;
 	background-color: black;
-	opacity: 1.0;
-	
 }
 
-
-
-
 .thickline {
-	width: 100%;
+	margin: auto;
+	width: 80%;
 	height: 3em;
-	background-color: #01bfa5;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
 }
 
 h2 {
 	text-align: center;
 	font-size: 3em;
 	margin: 3em auto 0em;
-	color: #01bfa5;
+	color: white;
 }
-
-
 
 h3 {
 	text-align: center;
 }
-#contentbox {
+
+#contenttabbox {
 	display: grid;
-	width: 30em;
-	height: 30em;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	margin: 2em auto 0;
-	background-color: #c2c2c2;
+	width: 16em;
+	height: 2em;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 2em auto;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
-.content {
-	width: 15em;
-	height: 15em;
-	border: 1px solid black;
+.contenttab {
+	text-align: center;
+	color: white;	
 }
 
-.content p {
-	color: white;
-	width: 11em;
-	margin: auto;
-}
-
-img {
-	width: 11em;
-	height: 7em;
-	margin: 0.5em auto 0;
+.contentbox {
+	width: 30em;	
 }
 
 #beforebox {
@@ -271,4 +259,6 @@ img {
 	width: 15em;
 	height: 15em;
 	border: 1px solid black;
+	border-radius: 10%;
+	margin: 0 0.5em;
 }
