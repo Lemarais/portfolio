@@ -202,7 +202,6 @@ a {
 	display: none;
 	position: absolute;
 	top: 45em;
-	height: 130em;
 	width: 100%;
 	background-color: black;
 }
@@ -226,7 +225,7 @@ a {
 	color: white;
 	text-align: center; 
 	font-size: 1.5em;
-	line-height: 3em;
+	line-height: 2.2em;
 }
 
 
