@@ -1,0 +1,90 @@
+body, html, h1, h3, ul, li, div, #wrapper, #basic_lecture_box{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	display: inline;
+	float: bottom;
+	font-size: 6em;
+	color: #797687;
+	text-align: center;
+}
+
+.websitebox {
+	width: 40em;
+	height: 10em;
+	border: 1px solid #9be2d4;
+	margin: 0.5em auto;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#content h3{
+	display: inline;
+	font-size: 2em;
+	color: #797687;
+}
+
+#content > div {
+	width: 40em;
+	margin: 4em auto;
+	background-color: white;
+}
+
+#wrapper {
+	display: grid;
+	grid-template-rows: 20em auto 5em;
+}
+
+#titlebox {
+	display: grid;
+	grid-template-rows: auto 7em 2em;
+	background-size: cover;
+	background-image: url(pagesource/title_background.png);
+}
+
+#basic_lecture_box {
+	background-color: #797687;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#basic_lecture_box > div {
+	text-align: center;
+	font-size: 1.5em;
+}
+#basic_lecture_box a {
+	margin: auto;
+	text-align: center;
+	color: #9be2d4;
+	text-decoration: none;
+}
+
+#content {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	//background-image: url(pagesource/content_background.jpg);
+}
+
+#funshop {
+	background-image: url(pagesource/funshop.gif);
+}
+
+#instagram {
+	background-image: url(pagesource/instagram.jpg);
+}
+
+#google {
+	background-image: url(pagesource/google.jpg);
+}
+
+#bottom {
+	background-color: #9be2d4;
+	text-align: right;
+	color: #797687;
+}
+
+
+
